@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include agg_changes *.css
+recursive-include agg_changes *.csv
+recursive-include agg_changes *.html
+recursive-include agg_changes *.ico
+recursive-include agg_changes *.js
+recursive-include agg_changes *.json
+recursive-include agg_changes *.md
+recursive-include agg_changes *.png
+recursive-include agg_changes *.py
+recursive-include agg_changes *.svg
+recursive-include agg_changes *.txt
+recursive-exclude agg_changes *.pyc
